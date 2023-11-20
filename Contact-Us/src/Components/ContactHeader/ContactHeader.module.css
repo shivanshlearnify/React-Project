@@ -1,0 +1,13 @@
+.contact{
+    max-width: 1290px;
+    margin: 71px auto 0 auto;
+}
+
+.contact h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+.contact p {
+  font-weight: 600;
+  color: #5a5959;
+}
