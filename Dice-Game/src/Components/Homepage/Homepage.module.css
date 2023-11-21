@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  max-width: 1182px;
+  height: 100vh;
+  margin: 0 auto;
+  align-items: center;
+}
+.content h1 {
+  font-size: 96px;
+  white-space: noWrap;
+}

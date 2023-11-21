@@ -1,0 +1,16 @@
+for styled components
+https://styled-components.com/
+
+for installation
+
+# with npm
+
+npm install styled-components
+
+include in pacage json
+
+{
+"resolutions": {
+"styled-components": "^5"
+}
+}
