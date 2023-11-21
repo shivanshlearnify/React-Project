@@ -5,6 +5,10 @@ import { IoCallOutline } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
 
 const ContactForm = () => {
+  const onSubmit = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <section className={styles.container}>
       <div className={styles.contactForm}>
@@ -24,7 +28,7 @@ const ContactForm = () => {
             icon={<IoIosMail fontSize={"24px"} />}
             name={"VIA EMAIL FORM"}
           />
-          <form action="">
+          <form onSubmit={onSubmit} action="">
             <div className={styles.form_control}>
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -37,7 +41,13 @@ const ContactForm = () => {
               <label htmlFor="text">Text</label>
               <textarea name="text" rows={8} id="text" />
             </div>
-            <div style={{display: 'flex', justifyContent: 'end', marginTop: '17px'}}>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "end",
+                marginTop: "17px",
+              }}
+            >
               <Button name={"SUBMIT"} />
             </div>
           </form>

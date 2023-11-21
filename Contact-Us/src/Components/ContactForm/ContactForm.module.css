@@ -36,3 +36,6 @@
     background-color: white;
     padding: 0 10px;
 }
+.form_control textarea {
+  padding: 8PX;
+}
