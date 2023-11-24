@@ -1,0 +1,25 @@
+.main {
+  margin: auto;
+  max-width: 1280px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  max-height: 151px;
+  margin-top: 64px;
+}
+.dice{
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 15px;
+}

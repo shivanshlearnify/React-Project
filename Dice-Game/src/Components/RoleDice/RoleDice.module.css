@@ -1,0 +1,14 @@
+.role {
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+  flex-direction: column;
+}
+p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.dice{
+    cursor: pointer;
+}

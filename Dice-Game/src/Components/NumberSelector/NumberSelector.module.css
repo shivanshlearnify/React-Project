@@ -1,0 +1,24 @@
+.box {
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 72px;
+  height: 72px;
+}
+.numberSelectorContainer {
+  display: flex;
+  gap: 24px;
+}
+.Select {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  justify-content: end;
+  margin-top: 30PX;
+}
